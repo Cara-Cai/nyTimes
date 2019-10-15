@@ -1,22 +1,50 @@
-.App {
-  text-align: center;
+.News{
+  display:flex;
+  padding-bottom:20px;
+  border-bottom:1px solid grey;
+  margin-bottom:20px;
+  
+}
+.date{
+  flex:0 0 20%;
+  color:grey;
+  font-size: 15px;
+  padding-left:30px;
+  padding-top:30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.News-content{
+  flex:0 0 50%;
+  width:100%;
+
+}
+.image{
+  flex:0 0 20%;
 }
 
-.App-logo {
-  height: 40vmin;
+.image img {
+  width: 80%;
+  padding-right:20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.writer{
+  color:grey;
+  font: size 12px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top:60px;
 }
 
-.App-link {
-  color: #09d3ac;
+.headline{
+  font-size: 2em;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top:20px;
+}
+
+.content{
+  font-size: 20px;
+  margin-top: 12px;
+  color:black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+  
 }
